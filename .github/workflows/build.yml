@@ -27,6 +27,6 @@ jobs:
         # The Go version to download (if necessary) and use. Supports semver spec and ranges.
         go-version: 1.14
     - name: Build
-      run: go build ../..
+      run: go build
     - name: Test
-      run: go test ../..
+      run: go test
